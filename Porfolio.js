@@ -34,26 +34,34 @@ Whether it's coding or brainstorming ideas, I'm always striving to enhance my sk
   ],
   education: [
     {
-      title: "Bachelor's in Computer Science",
-      date: "2020 - 2024",
-      institution: "XYZ     ",
+      title: "Msc in Information technology",
+      date: "2023 - 2025",
+      institution: "University of madras ",
       description:
         "I am pursuing my Bachelor's degree in Computer Science, where I focus on web development, algorithms, and data structures. I also participate in coding challenges and university projects to enhance my skills.",
     },
     {
-      title: " School Diploma",
-      date: "2018 - 2020",
-      institution: "ABC High School",
+      title: " Bachelor's in Computer Science",
+      date: "2020 - 2023",
+      institution: "St. Josephs College of Arts and Science",
+      description:
+        "I am pursuing my Bachelor's degree in Computer Science, where I focus on web development, algorithms, and data structures. I also participate in coding challenges and university projects to enhance my skills.",
+    },
+    {
+      title: " 12th Grade",
+      date: "2019 - 2020",
+      institution:
+        "St. Mary's Matriculation Higher Secondary School, Cuddalore",
       description:
         "I completed my high school education with a focus on Science and Mathematics, excelling in subjects like Physics and Computer Science. My high school years sparked my interest in technology and coding, which led me to pursue further studies in this field.",
     },
-    {
-      title: "Certificate in Web Development",
-      date: "2023",
-      institution: "Online Course (Udemy)",
-      description:
-        "I completed a specialized online course in Web Development, which included learning HTML, CSS, JavaScript, and other modern frameworks. This certification further strengthened my web development skills and prepared me for building modern web applications.",
-    },
+    // {
+    //   title: "Certificate in Web Development",
+    //   date: "2023",
+    //   institution: "Online Course (Udemy)",
+    //   description:
+    //     "I completed a specialized online course in Web Development, which included learning HTML, CSS, JavaScript, and other modern frameworks. This certification further strengthened my web development skills and prepared me for building modern web applications.",
+    // },
   ],
   skills: [
     {
@@ -67,6 +75,7 @@ Whether it's coding or brainstorming ideas, I'm always striving to enhance my sk
         { name: "CSS3", percentage: "85%", icon: "bx bxl-css3" },
         { name: "JavaScript", percentage: "80%", icon: "bx bxl-javascript" },
         { name: "UX/UI", percentage: "90%", icon: "bx bxs-paint" },
+        { name: "Wordpress", percentage: "80%", icon: "bx bxs-paint" },
       ],
     },
   ],
@@ -88,7 +97,7 @@ Whether it's coding or brainstorming ideas, I'm always striving to enhance my sk
       techStack: "HTML,CSS,JAVASCRIPT",
     },
     {
-      title: "E-commerce Platform",
+      title: "RTO Trouver",
 
       description:
         "Developed a user-friendly e-commerce platform with secure payment integration.",
@@ -96,12 +105,12 @@ Whether it's coding or brainstorming ideas, I'm always striving to enhance my sk
       techStack: "HTML,CSS,JAVASCRIPT",
     },
     {
-      title: "Blog Application",
+      title: "Smart Wall Painter",
 
       description:
         "Created a full-stack blog application with real-time data management.",
       link: "",
-      techStack: "HTML,CSS,JAVASCRIPT",
+      techStack: "HTML,CSS,JAVASCRIPT,Bootstrap,Python,Flask",
     },
   ],
 };
