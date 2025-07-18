@@ -146,9 +146,9 @@ homesocial.innerHTML = ` <a href="${portfolioDetails.SocialLinks[0].linkedin}" c
 const footersocial = document.querySelector(".footer");
 footersocial.innerHTML = `<p class="footer__title">${portfolioDetails.initialDetails[0].Name}</p>
       <div class="footer__social">
-        // <a href="${portfolioDetails.SocialLinks[0].facebook}"  target="_blank" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+      
         <a href="${portfolioDetails.SocialLinks[0].instagram}"  target="_blank" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-        // <a href="${portfolioDetails.SocialLinks[0].twitter}" target="_blank" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+       
         <a href="${portfolioDetails.SocialLinks[0].github}"  target="_blank" class="footer__icon"><i class="bx bxl-github"></i></a>
         <a href="${portfolioDetails.SocialLinks[0].linkedin}"  target="_blank" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
       </div>
