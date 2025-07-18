@@ -8,17 +8,17 @@ const portfolioDetails = {
       subtitle: ``,
       blobimageFullpath: "assets/img/ashwini.png",
       resumeLink:
-        "file:///C:/Users/ASHWINI/Downloads/ASHWINI%20RESUME%202025.pdf_20250718_153940_0000[1].pdf",
+        "assets/files/ASHWINI RESUME 2025.pdf",
     },
   ],
 
   SocialLinks: [
     {
-      github: "#",
+      github: "https://github.com/ASHWINIRAJAMANICKAM",
       Gmail: "#",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/ashwini-r-9189102b2/",
       facebook: "#",
-      instagram: "#",
+      instagram: "https://www.instagram.com/ashaug_12/",
       twitter: "#",
     },
   ],
@@ -38,14 +38,14 @@ Whether it's coding or brainstorming ideas, I'm always striving to enhance my sk
       date: "2023 - 2025",
       institution: "University of madras ",
       description:
-        "I am pursuing my Bachelor's degree in Computer Science, where I focus on web development, algorithms, and data structures. I also participate in coding challenges and university projects to enhance my skills.",
+        "I'm completed my Master's in Information Technology, focusing on web development, advanced algorithms, and modern computing technologies.",
     },
     {
       title: " Bachelor's in Computer Science",
       date: "2020 - 2023",
       institution: "St. Josephs College of Arts and Science",
       description:
-        "I am pursuing my Bachelor's degree in Computer Science, where I focus on web development, algorithms, and data structures. I also participate in coding challenges and university projects to enhance my skills.",
+        "Completed my undergraduate degree in Computer Science, with a focus on web development, data structures, and problem-solving through academic and extracurricular projects.",
     },
     {
       title: " 12th Grade",
@@ -93,7 +93,7 @@ Whether it's coding or brainstorming ideas, I'm always striving to enhance my sk
 
       description:
         "A responsive personal portfolio website to showcase my skills and projects.",
-      link: "",
+      link: "https://github.com/ASHWINIRAJAMANICKAM/Portfolio",
       techStack: "HTML,CSS,JAVASCRIPT",
     },
     {
@@ -101,7 +101,7 @@ Whether it's coding or brainstorming ideas, I'm always striving to enhance my sk
 
       description:
         "Developed a user-friendly e-commerce platform with secure payment integration.",
-      link: "",
+      link: "https://github.com/ASHWINIRAJAMANICKAM/Anime-recommendation-Engine-using-ML",
       techStack: "HTML,CSS,JAVASCRIPT",
     },
     {
@@ -109,7 +109,7 @@ Whether it's coding or brainstorming ideas, I'm always striving to enhance my sk
 
       description:
         "Created a full-stack blog application with real-time data management.",
-      link: "",
+      link: "https://github.com/ASHWINIRAJAMANICKAM/wall-painter",
       techStack: "HTML,CSS,JAVASCRIPT,Bootstrap,Python,Flask",
     },
   ],
@@ -138,9 +138,9 @@ homesocial.innerHTML = ` <a href="${portfolioDetails.SocialLinks[0].linkedin}" c
             ><i class="bx bxl-linkedin"></i
           ></a>
           <a href="${portfolioDetails.SocialLinks[0].github}" class="home__social-icon"><i class="bx bxl-github"></i></a>
-          <a href="${portfolioDetails.SocialLinks[0].facebook}" class="home__social-icon"
-            ><i class="bx bxl-facebook"></i
-          ></a>
+          // <a href="${portfolioDetails.SocialLinks[0].facebook}" class="home__social-icon"
+          //   ><i class="bx bxl-facebook"></i
+          // ></a>
           <a href="${portfolioDetails.SocialLinks[0].instagram}" class="home__social-icon"
             ><i class="bx bxl-instagram"></i
           ></a>`;
@@ -148,9 +148,9 @@ homesocial.innerHTML = ` <a href="${portfolioDetails.SocialLinks[0].linkedin}" c
 const footersocial = document.querySelector(".footer");
 footersocial.innerHTML = `<p class="footer__title">${portfolioDetails.initialDetails[0].Name}</p>
       <div class="footer__social">
-        <a href="${portfolioDetails.SocialLinks[0].facebook}" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        // <a href="${portfolioDetails.SocialLinks[0].facebook}" class="footer__icon"><i class="bx bxl-facebook"></i></a>
         <a href="${portfolioDetails.SocialLinks[0].instagram}" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-        <a href="${portfolioDetails.SocialLinks[0].twitter}" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+        // <a href="${portfolioDetails.SocialLinks[0].twitter}" class="footer__icon"><i class="bx bxl-twitter"></i></a>
         <a href="${portfolioDetails.SocialLinks[0].github}" class="footer__icon"><i class="bx bxl-github"></i></a>
         <a href="${portfolioDetails.SocialLinks[0].linkedin}" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
       </div>
