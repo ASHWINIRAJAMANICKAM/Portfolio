@@ -138,9 +138,7 @@ homesocial.innerHTML = ` <a href="${portfolioDetails.SocialLinks[0].linkedin}" c
             ><i class="bx bxl-linkedin"></i
           ></a>
           <a href="${portfolioDetails.SocialLinks[0].github}" class="home__social-icon"><i class="bx bxl-github"></i></a>
-          // <a href="${portfolioDetails.SocialLinks[0].facebook}" class="home__social-icon"
-          //   ><i class="bx bxl-facebook"></i
-          // ></a>
+          
           <a href="${portfolioDetails.SocialLinks[0].instagram}" class="home__social-icon"
             ><i class="bx bxl-instagram"></i
           ></a>`;
