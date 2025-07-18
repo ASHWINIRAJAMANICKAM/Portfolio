@@ -8,7 +8,7 @@ const portfolioDetails = {
       subtitle: ``,
       blobimageFullpath: "assets/img/ashwini.png",
       resumeLink:
-        "file:///C:/Users/ASHWINI/Downloads/ASHWINI%20RESUME%202025.pdf_20250718_153940_0000[1].pdf/view",
+        "file:///C:/Users/ASHWINI/Downloads/ASHWINI%20RESUME%202025.pdf_20250718_153940_0000[1].pdf",
     },
   ],
 
